@@ -7,24 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A17C936255A813500CED370 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A17C935255A813500CED370 /* main.swift */; };
+		0A17C946255AB77400CED370 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A17C935255A813500CED370 /* main.swift */; };
+		0A6D5A05255AC1EF003464B0 /* csvfile.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A6D5A00255AC020003464B0 /* csvfile.csv */; };
+		0A6D5A0D255C08AC003464B0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D5A0C255C08AC003464B0 /* Team.swift */; };
+		0A6D5A10255D8171003464B0 /* UsefullFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D5A0F255D8171003464B0 /* UsefullFunctions.swift */; };
+		0A6D5A13255D97AF003464B0 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D5A12255D97AF003464B0 /* Match.swift */; };
+		0A6D5A17255DA290003464B0 /* RunProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D5A16255DA290003464B0 /* RunProgram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0A17C930255A813500CED370 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0A6D5A02255AC168003464B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				0A6D5A05255AC1EF003464B0 /* csvfile.csv in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A17C932255A813500CED370 /* Assignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A17C935255A813500CED370 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0A6D5A00255AC020003464B0 /* csvfile.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = csvfile.csv; sourceTree = "<group>"; };
+		0A6D5A0C255C08AC003464B0 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		0A6D5A0F255D8171003464B0 /* UsefullFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefullFunctions.swift; sourceTree = "<group>"; };
+		0A6D5A12255D97AF003464B0 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		0A6D5A16255DA290003464B0 /* RunProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunProgram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +61,7 @@
 		0A17C929255A813500CED370 = {
 			isa = PBXGroup;
 			children = (
+				0A6D5A00255AC020003464B0 /* csvfile.csv */,
 				0A17C934255A813500CED370 /* Assignment1 */,
 				0A17C933255A813500CED370 /* Products */,
 			);
@@ -58,6 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				0A17C935255A813500CED370 /* main.swift */,
+				0A6D5A0C255C08AC003464B0 /* Team.swift */,
+				0A6D5A0F255D8171003464B0 /* UsefullFunctions.swift */,
+				0A6D5A12255D97AF003464B0 /* Match.swift */,
+				0A6D5A16255DA290003464B0 /* RunProgram.swift */,
 			);
 			path = Assignment1;
 			sourceTree = "<group>";
@@ -72,6 +97,7 @@
 				0A17C92E255A813500CED370 /* Sources */,
 				0A17C92F255A813500CED370 /* Frameworks */,
 				0A17C930255A813500CED370 /* CopyFiles */,
+				0A6D5A02255AC168003464B0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -119,7 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A17C936255A813500CED370 /* main.swift in Sources */,
+				0A6D5A17255DA290003464B0 /* RunProgram.swift in Sources */,
+				0A6D5A0D255C08AC003464B0 /* Team.swift in Sources */,
+				0A17C946255AB77400CED370 /* main.swift in Sources */,
+				0A6D5A10255D8171003464B0 /* UsefullFunctions.swift in Sources */,
+				0A6D5A13255D97AF003464B0 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
