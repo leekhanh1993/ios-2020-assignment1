@@ -13,11 +13,11 @@
 import Foundation
 
 //read file
-func readFile(nameFile: String, typeFile: String)-> [String]?{
-    //Read csv file, clean data and put valid data in eplData variable
-    if let path = Bundle.main.path(forResource: nameFile, ofType: typeFile) {
+func readFile(nameURL: String, typeFile: String)-> [String]?{
+    //Read csv and clean data and put valid data in eplData variable
+    if let path = Bundle.main.url(forResource: nameURL, withExtension: typeFile) {
         do {
-            let data = try String(contentsOfFile: path, encoding: .utf8)
+            let data = try String(contentsOf: path, encoding: .utf8)
             return data.components(separatedBy: .newlines)
         } catch {
             print("Read file error!!!")

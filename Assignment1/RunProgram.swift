@@ -26,7 +26,7 @@ func runProgram(){
     }
 
     //Read File csvfile.csv
-    var matchInfoList = readFile(nameFile: "csvfile", typeFile: "csv")!
+    var matchInfoList = readFile(nameURL: "csvfile", typeFile: "csv")!
 
     //Create a list match
 
